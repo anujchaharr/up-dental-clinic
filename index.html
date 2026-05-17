@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UP Dental Clinic & Implant Center | Ghaziabad</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Custom Tailwind Configuration -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Poppins', 'sans-serif'],
+                    },
+                    colors: {
+                        primary: '#0d9488', // Teal 600
+                        secondary: '#0891b2', // Cyan 600
+                        accent: '#f59e0b', // Amber 500
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        /* Custom CSS for Glassmorphism & Patterns */
+        .glass {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        .hero-pattern {
+            background-color: #0f766e;
+            background-image: radial-gradient(#115e59 1px, transparent 1px);
+            background-size: 20px 20px;
+        }
+        .gradient-text {
+            background: linear-gradient(to right, #0d9488, #0891b2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased overflow-x-hidden">
+
+    <!-- Top Bar -->
+    <div class="bg-slate-900 text-slate-300 py-2 px-4 text-xs md:text-sm">
+        <div class="container mx-auto flex flex-wrap justify-between items-center">
+            <div class="flex space-x-6">
+                <a href="tel:09971527420" class="hover:text-white transition flex items-center gap-2">
+                    <i class="fa-solid fa-phone text-primary"></i> 099715 27420
+                </a>
+                <span class="hidden sm:flex items-center gap-2">
+                    <i class="fa-solid fa-clock text-primary"></i> Mon-Sat: 10 AM - 9 PM
+                </span>
+            </div>
+            <div class="flex items-center gap-2">
+                <span class="text-accent font-semibold"><i class="fa-solid fa-star"></i> 4.9</span>
+                <span>(150 Google Reviews)</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="glass sticky top-0 z-50 shadow-sm transition-all duration-300">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="#" class="flex items-center gap-3">
+                <div class="bg-gradient-to-br from-primary to-secondary p-2 rounded-lg text-white">
+                    <i class="fa-solid fa-tooth text-2xl"></i>
+                </div>
+                <div>
+                    <h1 class="text-xl md:text-2xl font-bold leading-none text-slate-800">UP DENTAL CLINIC</h1>
+                    <span class="text-xs font-semibold tracking-widest text-primary uppercase">& Implant Center</span>
+                </div>
+            </a>
+            
+            <div class="hidden lg:flex space-x-8 font-medium text-slate-600">
+                <a href="#home" class="hover:text-primary transition">Home</a>
+                <a href="#about" class="hover:text-primary transition">Dr. Malik</a>
+                <a href="#services" class="hover:text-primary transition">Services</a>
+                <a href="#reviews" class="hover:text-primary transition">Reviews</a>
+                <a href="#contact" class="hover:text-primary transition">Contact</a>
+            </div>
+
+            <a href="https://wa.me/919971527420" target="_blank" class="hidden md:flex bg-green-500 hover:bg-green-600 text-white px-6 py-2.5 rounded-full font-medium items-center gap-2 transition-transform transform hover:scale-105 shadow-lg shadow-green-500/30">
+                <i class="fa-brands fa-whatsapp text-xl"></i> Book Appointment
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative pt-20 pb-32 lg:pt-32 lg:pb-48 overflow-hidden hero-pattern">
+        <div class="absolute inset-0 bg-gradient-to-r from-teal-900/90 to-cyan-900/80 z-0"></div>
+        <div class="container mx-auto px-4 relative z-10 text-center">
+            <div data-aos="fade-down" data-aos-duration="1000" class="inline-block bg-white/10 backdrop-blur-md border border-white/20 rounded-full px-4 py-1.5 mb-6 text-white text-sm font-medium">
+                <span class="text-accent"><i class="fa-solid fa-award"></i> Top Rated Dental Clinic in Ghaziabad</span>
+            </div>
+            
+            <h2 data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="100" class="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight max-w-4xl mx-auto">
+                Excellent Treatment & <br><span class="text-teal-300">Perfect Smiles.</span>
+            </h2>
+            
+            <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" class="text-lg md:text-xl text-teal-50 mb-10 max-w-2xl mx-auto font-light">
+                Advanced dental implants, painless procedures, and comprehensive care under the expert guidance of Dr. Malik.
+            </p>
+            
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" class="flex flex-col sm:flex-row justify-center items-center gap-4">
+                <a href="https://wa.me/919971527420" target="_blank" class="w-full sm:w-auto bg-white text-primary font-bold px-8 py-4 rounded-full shadow-xl hover:shadow-2xl transition-all transform hover:-translate-y-1 flex items-center justify-center gap-2">
+                    <i class="fa-brands fa-whatsapp text-green-500 text-xl"></i> Chat on WhatsApp
+                </a>
+                <a href="#services" class="w-full sm:w-auto bg-transparent border-2 border-white/50 text-white hover:bg-white/10 font-bold px-8 py-4 rounded-full transition-all flex items-center justify-center gap-2">
+                    View Our Services <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- Custom Wave Shape Divider -->
+        <div class="absolute bottom-0 left-0 w-full overflow-hidden leading-none z-10">
+            <svg class="relative block w-full h-[50px] lg:h-[100px]" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" fill="#f8fafc"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Info Cards Overlapping Hero -->
+    <div class="container mx-auto px-4 relative z-20 -mt-20 lg:-mt-24 mb-16">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div data-aos="fade-up" data-aos-delay="0" class="bg-white rounded-2xl p-6 shadow-xl border border-slate-100 transform transition hover:-translate-y-2 hover:shadow-2xl">
+                <div class="w-12 h-12 bg-teal-100 text-primary rounded-xl flex items-center justify-center text-xl mb-4">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <h3 class="font-bold text-lg mb-2 text-slate-800">Location</h3>
+                <p class="text-sm text-slate-500 leading-relaxed">340, Ambedkar Rd, Opposite Hotel Royal Regency, Pocket E, Maliwara, Nehru Nagar, Ghaziabad, UP 201001</p>
+            </div>
+            
+            <div data-aos="fade-up" data-aos-delay="100" class="bg-white rounded-2xl p-6 shadow-xl border border-slate-100 transform transition hover:-translate-y-2 hover:shadow-2xl">
+                <div class="w-12 h-12 bg-cyan-100 text-secondary rounded-xl flex items-center justify-center text-xl mb-4">
+                    <i class="fa-solid fa-user-doctor"></i>
+                </div>
+                <h3 class="font-bold text-lg mb-2 text-slate-800">Dr. Malik</h3>
+                <p class="text-sm text-slate-500 leading-relaxed">Highly experienced and skilled. Known for the "best suggestions and excellent treatments" by our patients.</p>
+            </div>
+
+            <div data-aos="fade-up" data-aos-delay="200" class="bg-white rounded-2xl p-6 shadow-xl border border-slate-100 transform transition hover:-translate-y-2 hover:shadow-2xl">
+                <div class="w-12 h-12 bg-amber-100 text-accent rounded-xl flex items-center justify-center text-xl mb-4">
+                    <i class="fa-solid fa-clock"></i>
+                </div>
+                <h3 class="font-bold text-lg mb-2 text-slate-800">Working Hours</h3>
+                <ul class="text-sm text-slate-500 space-y-1">
+                    <li class="flex justify-between border-b pb-1"><span>Mon - Sat</span> <span class="font-semibold text-slate-700">10:00 AM - 9:00 PM</span></li>
+                    <li class="flex justify-between pt-1"><span>Sunday</span> <span class="font-semibold text-red-500">Closed</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-slate-50 overflow-hidden">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col lg:flex-row items-center gap-12">
+                <div class="w-full lg:w-1/2 relative" data-aos="fade-right">
+                    <div class="absolute -inset-4 bg-gradient-to-r from-primary to-secondary opacity-30 blur-2xl rounded-full"></div>
+                    <div class="relative bg-white p-2 rounded-2xl shadow-2xl">
+                        <!-- Abstract Clinic Image Placeholder built with CSS -->
+                        <div class="w-full h-80 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center relative">
+                            <i class="fa-solid fa-hospital-user text-9xl text-slate-200"></i>
+                            <div class="absolute bottom-4 left-4 bg-white/90 backdrop-blur px-4 py-2 rounded-lg shadow-sm border border-slate-200 flex items-center gap-3 animate-bounce">
+                                <div class="bg-green-100 text-green-600 p-2 rounded-full"><i class="fa-solid fa-check-double"></i></div>
+                                <div>
+                                    <p class="text-xs font-bold text-slate-800">State of the Art</p>
+                                    <p class="text-[10px] text-slate-500">Digital Radiography & Lasers</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/2" data-aos="fade-left">
+                    <h4 class="text-primary font-bold tracking-wider uppercase text-sm mb-2">Welcome to the Clinic</h4>
+                    <h2 class="text-3xl md:text-4xl font-bold text-slate-800 mb-6">Expert Dental Care With A Personal Touch</h2>
+                    <p class="text-slate-600 mb-6 leading-relaxed">
+                        At <strong>UP Dental Clinic & Implant Center</strong>, we blend advanced technology with compassionate care. Led by the highly acclaimed <strong>Dr. Malik</strong>, our facility in Nehru Nagar, Ghaziabad offers a comprehensive range of oral healthcare solutions.
+                    </p>
+                    <blockquote class="border-l-4 border-primary pl-4 py-1 mb-8 italic text-slate-500 bg-slate-100/50 rounded-r-lg">
+                        "I am very satisfied about Dr Malik Experience and knowledge as well as skills 👍" <br>
+                        <span class="text-xs font-bold text-slate-400 not-italic mt-2 block">— Verified Google Reviewer</span>
+                    </blockquote>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-primary"></i> <span class="font-medium text-slate-700">Painless Treatments</span></div>
+                        <div class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-primary"></i> <span class="font-medium text-slate-700">Advanced Implants</span></div>
+                        <div class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-primary"></i> <span class="font-medium text-slate-700">Strict Sterilization</span></div>
+                        <div class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-primary"></i> <span class="font-medium text-slate-700">Emergency Care</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center max-w-3xl mx-auto mb-16" data-aos="fade-up">
+                <h4 class="text-primary font-bold tracking-wider uppercase text-sm mb-2">What We Do</h4>
+                <h2 class="text-3xl md:text-4xl font-bold text-slate-800 mb-4">Comprehensive <span class="gradient-text">Dental Services</span></h2>
+                <p class="text-slate-500">From routine check-ups to complex jaw reconstructions, we offer full-scale treatments under one roof.</p>
+            </div>
+
+            <!-- Main Services Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+                <!-- Service 1 -->
+                <div data-aos="zoom-in" data-aos-delay="0" class="group bg-slate-50 rounded-2xl p-8 hover:bg-primary transition-all duration-300 text-center border border-slate-100 hover:shadow-2xl">
+                    <div class="w-16 h-16 mx-auto bg-white rounded-full flex items-center justify-center text-3xl text-primary group-hover:text-primary shadow-sm mb-6 transform group-hover:scale-110 transition">
+                        <i class="fa-solid fa-tooth"></i>
+                    </div>
+                    <h3 class="font-bold text-xl text-slate-800 group-hover:text-white mb-3 transition">Dental Implants</h3>
+                    <p class="text-slate-500 group-hover:text-teal-50 text-sm transition">Permanent solutions with bone grafting, regeneration, and ridge preservation.</p>
+                </div>
+
+                <!-- Service 2 -->
+                <div data-aos="zoom-in" data-aos-delay="100" class="group bg-slate-50 rounded-2xl p-8 hover:bg-primary transition-all duration-300 text-center border border-slate-100 hover:shadow-2xl">
+                    <div class="w-16 h-16 mx-auto bg-white rounded-full flex items-center justify-center text-3xl text-primary group-hover:text-primary shadow-sm mb-6 transform group-hover:scale-110 transition">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    </div>
+                    <h3 class="font-bold text-xl text-slate-800 group-hover:text-white mb-3 transition">Cosmetic Dentistry</h3>
+                    <p class="text-slate-500 group-hover:text-teal-50 text-sm transition">Teeth whitening, veneers, crowns, bonding, and cosmetic periodontal surgery.</p>
+                </div>
+
+                <!-- Service 3 -->
+                <div data-aos="zoom-in" data-aos-delay="200" class="group bg-slate-50 rounded-2xl p-8 hover:bg-primary transition-all duration-300 text-center border border-slate-100 hover:shadow-2xl">
+                    <div class="w-16 h-16 mx-auto bg-white rounded-full flex items-center justify-center text-3xl text-primary group-hover:text-primary shadow-sm mb-6 transform group-hover:scale-110 transition">
+                        <i class="fa-solid fa-syringe"></i>
+                    </div>
+                    <h3 class="font-bold text-xl text-slate-800 group-hover:text-white mb-3 transition">Oral Surgery & Jaw</h3>
+                    <p class="text-slate-500 group-hover:text-teal-50 text-sm transition">Extractions, fracture repair, jaw reconstruction, and crown lengthening.</p>
+                </div>
+
+                <!-- Service 4 -->
+                <div data-aos="zoom-in" data-aos-delay="300" class="group bg-slate-50 rounded-2xl p-8 hover:bg-primary transition-all duration-300 text-center border border-slate-100 hover:shadow-2xl">
+                    <div class="w-16 h-16 mx-auto bg-white rounded-full flex items-center justify-center text-3xl text-primary group-hover:text-primary shadow-sm mb-6 transform group-hover:scale-110 transition">
+                        <i class="fa-solid fa-child-reaching"></i>
+                    </div>
+                    <h3 class="font-bold text-xl text-slate-800 group-hover:text-white mb-3 transition">General & Paediatrics</h3>
+                    <p class="text-slate-500 group-hover:text-teal-50 text-sm transition">Root canals, fillings, braces, digital radiography, and kid-friendly care.</p>
+                </div>
+            </div>
+
+            <!-- Service Tags Cloud -->
+            <div data-aos="fade-up" class="bg-slate-50 p-8 rounded-2xl border border-slate-100 text-center shadow-inner">
+                <h4 class="font-semibold text-slate-800 mb-6">Explore All Our Treatments:</h4>
+                <div class="flex flex-wrap justify-center gap-3">
+                    <!-- Iterating the massive list of services provided -->
+                    <span class="px-4 py-2 bg-white text-slate-600 text-sm rounded-full shadow-sm border border-slate-200 hover:border-primary hover:text-primary transition cursor-default">Teeth Whitening</span>
+                    <span class="px-4 py-2 bg-white text-slate-600 text-sm rounded-full shadow-sm border border-slate-200 hover:border-primary hover:text-primary transition cursor-default">Bonding</span>
+                    <span class="px-4 py-2 bg-white text-slate-600 text-sm rounded-full shadow-sm border border-slate-200 hover:border-primary hover:text-primary transition cursor-default">Check-ups</span>
+                    <span class="px-4 py-2 bg-white text-slate-600 text-sm rounded-full shadow-sm border border-slate-200 hover:border-primary hover:text-primary transition cursor-default">Dentures & Bridges</span>
+                    <span class="px-4 py-2 bg-white text-slate-600 text-sm rounded-full shadow-sm border border-slate-200 hover:border-primary hover:text-primary transition cursor-default">Emergency Care</span>
+                    <span class="px-4 py-2 bg-white text-slate-600 text-sm rounded-full shadow-sm border border-slate-200 hover:border-primary hover:text-primary transition cursor-default">Fillings & Sealants</span>
+                    <span class="px-4 py-2 bg-white text-slate-600 text-sm rounded-full shadow-sm border border-slate-200 hover:border-primary hover:text-primary transition cursor-default">Laser Dentistry</span>
+                    <span class="px-4 py-2 bg-white text-slate-600 text-sm rounded-full shadow-sm border border-slate-200 hover:border-primary hover:text-primary transition cursor-default">Mouth Guards</span>
+                    <span class="px-4 py-2 bg-white text-slate-600 text-sm rounded-full shadow-sm border border-slate-200 hover:border-primary hover:text-primary transition cursor-default">Root Canals</span>
+                    <span class="px-4 py-2 bg-white text-slate-600 text-sm rounded-full shadow-sm border border-slate-200 hover:border-primary hover:text-primary transition cursor-default">Teeth Reshaping</span>
+                    <span class="px-4 py-2 bg-white text-slate-600 text-sm rounded-full shadow-sm border border-slate-200 hover:border-primary hover:text-primary transition cursor-default">Pyorrhea Treatment</span>
+                    <span class="px-4 py-2 bg-white text-slate-600 text-sm rounded-full shadow-sm border border-slate-200 hover:border-primary hover:text-primary transition cursor-default">Braces</span>
+                    <span class="px-4 py-2 bg-white text-slate-600 text-sm rounded-full shadow-sm border border-slate-200 hover:border-primary hover:text-primary transition cursor-default">Gum Grafting</span>
+                    <span class="px-4 py-2 bg-white text-slate-600 text-sm rounded-full shadow-sm border border-slate-200 hover:border-primary hover:text-primary transition cursor-default">Scaling & Root Planing</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="py-20 bg-slate-900 text-white relative">
+        <!-- Decorative Background Element -->
+        <div class="absolute top-0 right-0 w-64 h-64 bg-primary opacity-20 blur-[100px] rounded-full"></div>
+        <div class="absolute bottom-0 left-0 w-64 h-64 bg-secondary opacity-20 blur-[100px] rounded-full"></div>
+        
+        <div class="container mx-auto px-4 relative z-10">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <div class="flex justify-center text-accent text-2xl mb-4 gap-1">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Patient Stories & Reviews</h2>
+                <p class="text-slate-400">Join our 150+ happy patients rating us <strong class="text-white">4.9 on Google</strong>.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Review 1 -->
+                <div data-aos="fade-up" data-aos-delay="0" class="bg-slate-800 p-8 rounded-2xl border border-slate-700 relative">
+                    <i class="fa-solid fa-quote-left text-4xl text-slate-600 absolute top-4 left-4 opacity-50"></i>
+                    <p class="text-slate-300 italic relative z-10 mt-4 mb-6">"Best Doctor, Best Suggestion and excellent Treatment."</p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-10 h-10 bg-gradient-to-r from-primary to-secondary rounded-full flex items-center justify-center font-bold">G</div>
+                        <div>
+                            <h4 class="font-semibold text-white">Google User</h4>
+                            <div class="flex text-accent text-xs"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Review 2 -->
+                <div data-aos="fade-up" data-aos-delay="100" class="bg-slate-800 p-8 rounded-2xl border border-slate-700 relative">
+                    <i class="fa-solid fa-quote-left text-4xl text-slate-600 absolute top-4 left-4 opacity-50"></i>
+                    <p class="text-slate-300 italic relative z-10 mt-4 mb-6">"Best place for dental gums problem."</p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-10 h-10 bg-gradient-to-r from-primary to-secondary rounded-full flex items-center justify-center font-bold">G</div>
+                        <div>
+                            <h4 class="font-semibold text-white">Google User</h4>
+                            <div class="flex text-accent text-xs"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Review 3 -->
+                <div data-aos="fade-up" data-aos-delay="200" class="bg-slate-800 p-8 rounded-2xl border border-slate-700 relative">
+                    <i class="fa-solid fa-quote-left text-4xl text-slate-600 absolute top-4 left-4 opacity-50"></i>
+                    <p class="text-slate-300 italic relative z-10 mt-4 mb-6">"I am very satisfied abut Dr Malik Experience and knowledge as well as skills 👍"</p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-10 h-10 bg-gradient-to-r from-primary to-secondary rounded-full flex items-center justify-center font-bold">G</div>
+                        <div>
+                            <h4 class="font-semibold text-white">Google User</h4>
+                            <div class="flex text-accent text-xs"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <a href="https://www.google.com/search?q=UP+DENTAL+CLINIC+%26+IMPLANT+CENTER" target="_blank" class="inline-block border border-slate-600 hover:bg-slate-800 text-white font-medium px-6 py-2 rounded-full transition-colors">
+                    Read More Reviews on Google
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contact Section -->
+    <footer id="contact" class="bg-white pt-20 pb-10 border-t border-slate-200">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+                <!-- Branding & About -->
+                <div class="lg:col-span-1">
+                    <div class="flex items-center gap-3 mb-6">
+                        <div class="bg-gradient-to-br from-primary to-secondary p-2 rounded-lg text-white">
+                            <i class="fa-solid fa-tooth text-xl"></i>
+                        </div>
+                        <h2 class="text-xl font-bold leading-none text-slate-800">UP DENTAL<br><span class="text-[10px] font-semibold tracking-widest text-primary uppercase">Clinic & Implant Center</span></h2>
+                    </div>
+                    <p class="text-slate-500 text-sm mb-6">Providing world-class dentistry and specialized implant procedures in Ghaziabad with an emphasis on quality and comfort.</p>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="lg:col-span-1">
+                    <h3 class="font-bold text-slate-800 mb-6 uppercase tracking-wider text-sm">Contact Us</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-start gap-3 text-slate-600">
+                            <i class="fa-solid fa-phone text-primary mt-1"></i>
+                            <div>
+                                <p class="font-medium text-slate-800">Phone & WhatsApp</p>
+                                <a href="tel:09971527420" class="hover:text-primary transition">099715 27420</a>
+                            </div>
+                        </li>
+                        <li class="flex items-start gap-3 text-slate-600">
+                            <i class="fa-solid fa-location-dot text-primary mt-1"></i>
+                            <div>
+                                <p class="font-medium text-slate-800">Clinic Address</p>
+                                <p class="text-sm">340, Ambedkar Rd, opposite HOTEL ROYAL REGENCY, Pocket E, Maliwara, Nehru Nagar, Ghaziabad, UP 201001</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="lg:col-span-1">
+                    <h3 class="font-bold text-slate-800 mb-6 uppercase tracking-wider text-sm">Quick Links</h3>
+                    <ul class="space-y-3 text-slate-600">
+                        <li><a href="#home" class="hover:text-primary transition"><i class="fa-solid fa-angle-right text-xs mr-2 text-primary"></i> Home</a></li>
+                        <li><a href="#about" class="hover:text-primary transition"><i class="fa-solid fa-angle-right text-xs mr-2 text-primary"></i> About Dr. Malik</a></li>
+                        <li><a href="#services" class="hover:text-primary transition"><i class="fa-solid fa-angle-right text-xs mr-2 text-primary"></i> All Services</a></li>
+                        <li><a href="#reviews" class="hover:text-primary transition"><i class="fa-solid fa-angle-right text-xs mr-2 text-primary"></i> Patient Reviews</a></li>
+                    </ul>
+                </div>
+
+                <!-- Hours -->
+                <div class="lg:col-span-1">
+                    <h3 class="font-bold text-slate-800 mb-6 uppercase tracking-wider text-sm">Opening Hours</h3>
+                    <div class="bg-slate-50 p-4 rounded-xl border border-slate-100">
+                        <ul class="space-y-3 text-sm text-slate-600">
+                            <li class="flex justify-between"><span>Mon - Sat:</span> <span class="font-semibold text-slate-800">10:00 AM - 9:00 PM</span></li>
+                            <li class="flex justify-between"><span>Sunday:</span> <span class="font-bold text-red-500">Closed</span></li>
+                        </ul>
+                        <a href="https://wa.me/919971527420" target="_blank" class="block w-full text-center mt-4 bg-primary hover:bg-teal-700 text-white py-2 rounded-lg transition-colors text-sm font-medium">
+                            Book Appointment
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-t border-slate-200 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+                <p class="text-slate-500 text-sm">© 2026 UP Dental Clinic & Implant Center. All rights reserved.</p>
+                <div class="flex space-x-4">
+                    <!-- Social placeholders -->
+                    <a href="#" class="w-10 h-10 bg-slate-100 text-slate-600 rounded-full flex items-center justify-center hover:bg-primary hover:text-white transition"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://wa.me/919971527420" class="w-10 h-10 bg-slate-100 text-slate-600 rounded-full flex items-center justify-center hover:bg-green-500 hover:text-white transition"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#" class="w-10 h-10 bg-slate-100 text-slate-600 rounded-full flex items-center justify-center hover:bg-primary hover:text-white transition"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- AOS Animation Script Setup -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        // Initialize Animate On Scroll
+        AOS.init({
+            once: true, // whether animation should happen only once - while scrolling down
+            offset: 100, // offset (in px) from the original trigger point
+        });
+
+        // Sticky Navbar effect script
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 10) {
+                nav.classList.add('shadow-md');
+                nav.classList.replace('py-4', 'py-2');
+            } else {
+                nav.classList.remove('shadow-md');
+                nav.classList.replace('py-2', 'py-4');
+            }
+        });
+    </script>
+</body>
+</html>
